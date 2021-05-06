@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html ng-app= "act-app">
+<html ng-app= "MsgApp">
 <head>
 	<meta charset="utf-8">
-	<script type='angular.min.js'></script>
-	<script type='app.js'></script>
+	<script src="angular.min.js"></script>
+	<script src="app.js"></script>
 	<style type="text/css">
 		body {
 			font-size: 1.2em;
@@ -11,9 +11,10 @@
 			font-family: Arial;
 			color: white;
 		}
+
 		h1 {
 			font-family: Verdana;
-			color:yellow;
+			color: yellow;
 		}
 	</style>
 	<title>Activity 1 (Midterm)</title>
@@ -21,7 +22,7 @@
 <body>
 	<h1>Activity No. 2 (1st Activity Midterm)</h1>
 	<div ng-controller='MsgController'>
-		{{person}} there is a notice: <br>
+		<color style="color:lightcyan"><b>{{person}}</b></color> there is a notice for you: <br>
 		{{keyMessage()}}
 		<div>
 			<button ng-click="initiateReticulation()">Confirm Reticulation</button>

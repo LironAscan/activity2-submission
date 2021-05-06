@@ -1,12 +1,12 @@
 (function(){
 	'use strict';
 
-	angular.module("act-app",[])
+	angular.module("MsgApp",[])
 	.controller('MsgController', MsgController);
 
 	MsgController.$inject = ['$scope'];
 	function MsgController($scope){
-		$scope.person = "User";
+		$scope.person = "Sir/Madam";
 		$scope.buttonColor = "redButton";
 
 		$scope.keyMessage = function() {
